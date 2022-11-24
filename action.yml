@@ -6,7 +6,7 @@ inputs:
     required: true
     default: 'World'
 runs:
-  using: 'docker'                 # docker 
+  using: 'docker'                 # docker
   image: 'Dockerfile'             # make image using Dockerfile
   args:                           # set parameter while execute docker run
     - $
